@@ -1,0 +1,36 @@
+.meny-nav {
+    color: palevioletred;
+}
+
+h1 {
+    color: palevioletred;
+    font-size: 45px;
+    font-weight: 350;
+    font-style: inherit;
+    text-align: center;
+    background-color: pink;
+}
+h2 {
+    color: palevioletred;
+    background-color: thistle;
+}
+h3 {
+    font-weight: 300;
+    color: white;
+    background-color: palevioletred;
+}
+
+h4 {
+    color:pink;
+}
+body {
+    background-image: url(../images/konfetti.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    text-align: center;
+}
+
+p {
+    color: white;
+}
