@@ -1,5 +1,11 @@
-.meny-nav {
-    color: palevioletred;
+/* Structure in which order? Tag priority or html doc?*/
+
+body {
+    background-image: url(../images/konfetti.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    text-align: center;
 }
 
 h1 {
@@ -19,18 +25,69 @@ h3 {
     color: white;
     background-color: palevioletred;
 }
-
 h4 {
     color:pink;
 }
-body {
-    background-image: url(../images/konfetti.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed; 
-    text-align: center;
-}
-
 p {
     color: white;
+}
+
+.meny-nav {
+    color: palevioletred;
+} /* Q: How to display containers horizontal? */
+
+.meny-nav img:hover {
+    background-color: hotpink;
+}
+
+.teaser-container {
+    background-color:pink;
+    display: inline-block;
+    max-height: 250px;
+    max-width: 350;
+    padding: 1px;
+    margin: 10px;
+    border: 3px dotted hotpink;
+} /* Q: How do I add content in container? */
+
+ button {
+    background-color: hotpink;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 5px; 
+ }
+
+button:hover {
+    background-color: pink;
+    color: black;
+}
+   
+/*Images*/
+
+.saturday-content:before {
+    color: hotpink;
+    content: "New!";
+}
+
+.friday-img, .saturday-evening, .sunday-img {
+    border: 3px solid hotpink;
+} /* Q: Why no border in Sunday-img? */
+
+.saturday-morning {
+    border: 3px solid white;
+    padding: 10px;
+}
+
+img {
+    width: 350px;
+    height: 250px;
+    margin: 20px;
+}
+.saturday-evening {
+    height: 70vh;
+    width: 100%;
+    max-height: 700px;
+    max-width: 1200px;
 }
